@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bakery Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="style" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--header-->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-bread-slice"></i>bakery</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#product">product</a>
+            <a href="#gallery">gallery</a>
+            <a href="#team">team</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+            <a href="artikel.php">artikel</a>
+            <a href="login.php">login</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+    <!--header selesai-->
+
+    <!--login-->
+
+
+    <!--login  end-->
+
+    <!--mulai shopping cart-->
+    <div class="cart-items-container">
+        <div id="close-form" class="fas fa-times"></div>
+        <h3 class="title">checkout</h3>
+
+        <div class="cart-item"></div>
+        <span class="fas fa-times"></span>
+        <img src="images/cart-1.png" alt="">
+        <div class="content">
+            <h3>bakery item 1</h3>
+            <div class="price">Rp. 20.000/-</div>
+        </div>
+
+        <div class="cart-item"></div>
+        <span class="fas fa-times"></span>
+        <img src="images/cart-2.png" alt="">
+        <div class="content">
+            <h3>bakery item 2</h3>
+            <div class="price">Rp. 15.000/-</div>
+        </div>
+
+        <div class="cart-item"></div>
+        <span class="fas fa-times"></span>
+        <img src="images/cart-3.png" alt="">
+        <div class="content">
+            <h3>bakery item 3</h3>
+            <div class="price">Rp. 10.000/-</div>
+        </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+    <!--shopping cart end-->
+
+    <!--home-->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide" style="background: url(images/slider1.jpg) no-repeat;">
+                        <div class="ccontent">
+                            <h3>From Sumbawa to The World</h3>
+                            <a href="#" class="btn"> get started </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background: url(images/slider2.png) no-repeat;">
+                        <div class="ccontent">
+                            <h3>Yuk Kenali Sumbawa</h3>
+                            <a href="#" class="btn"> get started </a>
+                        </div>
+                    </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!--home section sudah selesai-->
+    <!--banner-->
+
+    <section class="banner">
+        <img src="images/banner.png" alt="">
+    </section>
+
+    <!--about-->
+
+    <section class="about" id="about">
+        <h1 class="heading">
+            <spam>about</spam> us
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/about.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Mengenal Sumbawa <spam>Lebih Dekat</spam>
+                </h3>
+                <p>Ekonomi Sumbawa didominasi oleh sektor pertanian, peternakan, dan perikanan. Sumbawa terkenal dengan
+                    hasil ternak sapinya, juga produk seperti madu hutan dan jagung. Selain itu, Sumbawa juga mulai
+                    dikenal dalam industri pariwisata karena keindahan pantai, ombak yang ideal untuk surfing, serta
+                    situs-situs alam yang masih alami dan belum banyak tersentuh. Pulau ini memiliki daya tarik wisata
+                    alam yang meliputi pantai, hutan, dan berbagai lokasi wisata bahari yang menawan.</p>
+                <p>Pulau Sumbawa juga memiliki nilai sejarah dan budaya yang kaya, dengan tradisi unik yang masih
+                    dilestarikan hingga saat ini, termasuk acara-acara adat dan festival lokal yang menarik perhatian
+                    wisatawan domestik maupun internasional.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--about end-->
+
+    <!--product-->
+    <section class="product" id="product">
+        <h1 class="heading">our <span> products</span></h1>
+        <div class="foto-container">
+
+            <div class="box">
+                <div class="foto">
+                    <img src="images/product1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Manjareal</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">Rp. 30.000</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="foto">
+                    <img src="images/product2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kue Janda Berenang</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">Rp. 3.000</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="foto">
+                    <img src="images/product3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kue Putri Mandi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">Rp. 2.000</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="foto">
+                    <img src="images/product4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Batu Kumung</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">Rp. 5.000</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="foto">
+                    <img src="images/product5.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kue Mento</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">Rp. 10.000</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="foto">
+                    <img src="images/product6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Dodol Rumput Laut</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">Rp. 20.000</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+
+    </section>
+    <!--product end-->
+
+    <!--gallery-->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">our <span> gallery</span></h1>
+    <div class="foto-container">
+        <div class="foto">
+            <a href="images/gallery1.png">
+                <img src="images/gallery1.png" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+        </div>
+
+        <div class="foto">
+            <a href="images/gallery2.jpg">
+                <img src="images/gallery2.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+        </div>
+
+        <div class="foto">
+            <a href="images/gallery3.jpg">
+                <img src="images/gallery3.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+        </div>
+
+        <div class="foto">
+            <a href="images/gallery4.jpg">
+                <img src="images/gallery4.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+        </div>
+
+        <div class="foto">
+            <a href="images/gallery5.jpg">
+                <img src="images/gallery5.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+        </div>
+
+        <div class="foto">
+            <a href="images/gallery6.jpg">
+                <img src="images/gallery6.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+        </div>
+    </div>
+
+</section>
+    <!--gallery end-->
+
+    <!--team-->
+    <section class="team" id="team">
+        <h1 class="heading">our <span>team</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="imageteam">
+                    <img src="images/team1.jpg" alt="">
+                </div>
+                <div class="centertext" >
+                    <h1>Wahyu Rafi Hamdani</h1>
+                    <h2>CEO</h2>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--team end-->
+
+    <!--parallax-->
+    <section class="parallax">
+        <h1 class="heading">range of <span> products</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/parallax-1.png" alt="">
+                </div>
+                <div class="contentt">
+                    <h3>Kue Kering</h3>
+                    <p>Kue kering adalah jenis makanan ringan yang dibuat dari adonan tepung, gula, telur, dan bahan
+                        lainnya yang dipanggang hingga kering dan renyah. Kue ini memiliki tekstur yang renyah dan lebih
+                        tahan lama dibandingkan kue basah karena kadar airnya rendah. Kue kering biasanya memiliki
+                        berbagai bentuk dan rasa, seperti kue kering cokelat, kacang, keju, dan selai. Di Indonesia, kue
+                        kering sering disajikan pada hari-hari perayaan besar seperti Idul Fitri dan Natal, dan menjadi
+                        camilan populer untuk disajikan kepada tamu atau dinikmati bersama keluarga.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/parallax-2.png" alt="">
+                </div>
+                <div class="contentt">
+                    <h3>Kue Basah</h3>
+                    <p>Kue basah adalah jenis makanan ringan yang memiliki tekstur lembut, kenyal, atau lembap, dengan
+                        kadar air yang lebih tinggi dibandingkan kue kering. Kue ini biasanya dibuat dari bahan seperti
+                        tepung beras, tepung ketan, santan, gula, dan aneka pewarna alami atau daun-daunan untuk aroma,
+                        seperti pandan atau daun pisang. Karena kadar airnya tinggi, kue basah tidak tahan lama dan
+                        sebaiknya dikonsumsi segera setelah dibuat. Di Indonesia, kue basah termasuk dalam jajanan
+                        tradisional, contohnya seperti kue lapis, klepon, dan onde-onde. Kue basah sering dijumpai di
+                        pasar-pasar tradisional dan disajikan pada acara-acara keluarga, kenduri, dan hari-hari perayaan
+                        tertentu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--parallax end-->
+
+    <!--review-->
+    <section class="review" id="review">
+        <h1 class="heading"> customer's <span>review</span></h1>
+        <div class="box-container">
+
+            <div class="box image">
+                <img src="images/review-1.jpeg" alt="">
+                <h3>Asep</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Rasanya enak dan bumbunya benar-benar terasa di setiap gigitan</p>
+            </div>
+
+            <div class="box image">
+                <img src="images/review-2.jpg" alt="">
+                <h3>Yanto</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Porsinya pas dan teksturnya sempurna, tidak terlalu keras atau lembek</p>
+            </div>
+
+            <div class="box image">
+                <img src="images/review-3.jpg" alt="">
+                <h3>Ujang</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Teksturnya lembut dan meleleh di mulut, cocok untuk segala suasana.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--review end-->
+    <!--order-->
+    <section class="order" id="order">
+        <h1 class="heading"><span>order</span> now</h1>
+        <div class="row">
+
+            <div class="image">
+                <img src="images/order.gif" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="email address">
+                    <input type="number" placeholder="phone number">
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" placeholder="food name">
+                    <input type="number" placeholder="how much">
+                </div>
+                <textarea placeholder="your adress" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="order now" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!--order end-->
+    <!--footer-->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Address</h3>
+                <p>RT/RW 006/001 Jl. Lintas Sumbawa-Lunyuk Km. 19</p>
+                <div class="share">
+                    <a href="https://wa.me/62085337299281" target="_blank" class="fab fa-whatsapp"></a>
+                    <a href="https://x.com/rfh_49" target="_blank" class="fab fa-twitter"></a>
+                    <a href="https://instagram.com/rfh_49" target="_blank" class="fab fa-instagram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>E-Mail</h3>
+                <a href="mailto:wahyurafihamdani97@gmail.com" class="link">wahyurafihamdani97@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>Call Us</h3>
+                <p>085 337 299 281</p>
+                <p>085 337 299 281</p>
+            </div>
+
+            <div class="box">
+                <h3>Opening hours</h3>
+                <p>Senin - Sabtu 07.00 - 21.00</p>
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>Wahyu Rafi Hamdani</span> all rights reserved!</div>
+    </section>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        lightGalley(document.querySelector('.gallery .gallery-container'));
+    </script>
+
+</body>
+
+</html>
